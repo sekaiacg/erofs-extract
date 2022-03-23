@@ -41,3 +41,6 @@ usage: [options]
   -o, --outdir=X         Output dir
   -V, --version          Print the version info
 ```
+
+**贡献者**
+- 感谢[lateautumn233](https://github.com/lateautumn233)提供的[erofs-utils](https://github.com/lateautumn233/erofs-utils)编译方法
