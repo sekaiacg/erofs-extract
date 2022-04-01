@@ -42,5 +42,6 @@ usage: [options]
   -V, --version          Print the version info
 ```
 
-**贡献者**
+**贡献者/contributors**
 - 感谢[lateautumn233](https://github.com/lateautumn233)提供的[erofs-utils](https://github.com/lateautumn233/erofs-utils)编译方法
+- Thanks to [lateautumn233](https://github.com/lateautumn233) for the [erofs-utils](https://github.com/lateautumn233/erofs-utils) compilation method.
