@@ -25,7 +25,6 @@
 
 ```
 usage: [options]
-
   Extract files from image:
   -h, --help             Help info
   -i, --image=[FILE]     Image file
@@ -35,8 +34,8 @@ usage: [options]
   --extract=X            Extract the target of path X
   --extract-conf=[FILE]  Extract the target of config
   -r                     When using config, recurse directories
-  --only-cfg-and-ctx     Only Extract fs_config and files_context
-  -T#                    [1-16] Use # threads
+  --only-cfg-and-ctx     Only extract fs_config and files_context
+  -T#                    [1-X] Use # threads, -T0: 2/X
   -f, --overwrite        [default: skip] overwrite files that already exist
   -o, --outdir=X         Output dir
   -V, --version          Print the version info
