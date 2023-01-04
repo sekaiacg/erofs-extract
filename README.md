@@ -19,9 +19,9 @@
 - files_context
 
 ****
-**fs_config:**`vendor/app 0 2000 0755`
+**fs_config:**`vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti 1002 1002 0755 capabilities=0x1000`
 
-**files_context:** `vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti 1002 1002 0755 capabilities=0x1000`
+**files_context:** `/vendor/bin/hw/android\.hardware\.bluetooth@1\.0-service-qti u:object_r:hal_bluetooth_default_exec:s0`
 
 ```
 usage: [options]
@@ -35,7 +35,7 @@ usage: [options]
   --extract-conf=[FILE]  Extract the target of config
   -r                     When using config, recurse directories
   --only-cfg-and-ctx     Only extract fs_config and files_context
-  -T#                    [1-X] Use # threads, -T0: 2/X
+  -T#                    [1-X] Use # threads, -T0: X/2
   -f, --overwrite        [default: skip] overwrite files that already exist
   -o, --outdir=X         Output dir
   -V, --version          Print the version info
