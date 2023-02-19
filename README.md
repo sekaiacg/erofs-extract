@@ -19,7 +19,7 @@
 - files_context
 
 ****
-**fs_config:**`vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti 1002 1002 0755 capabilities=0x1000`
+**fs_config:**`vendor/bin/cnd 1000 1000 0755 capabilities=0x1000001400`
 
 **files_context:** `/vendor/bin/hw/android\.hardware\.bluetooth@1\.0-service-qti u:object_r:hal_bluetooth_default_exec:s0`
 
